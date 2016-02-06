@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="resultsWin" title="Results" class="container" onOpen="generateSections">
+		<TableView id="resultsTable">	
+		</TableView>
+		</Window>
+</Alloy>

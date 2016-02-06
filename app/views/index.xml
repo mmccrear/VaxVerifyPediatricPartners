@@ -1,0 +1,13 @@
+<Alloy>
+	<NavigationWindow  id="navWindow" class="container">
+		<Window id="mainWindow" title = "Child's DOB">
+			<RightNavButton>
+				<Button id="saveDobButton" title="Next" onClick="saveDob"></Button>
+			</RightNavButton>
+			<View id="main">
+				<Label class="childDoblabel">Enter Child's DOB:</Label>
+				<TextField id="childDobField" hintText="Child's DOB"></TextField>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

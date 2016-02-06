@@ -1,0 +1,10 @@
+
+".container" : {
+  
+}
+
+"#resultsWin":{
+	top: 15,
+	layout:"vertical",
+	opacity: 1.0,
+}

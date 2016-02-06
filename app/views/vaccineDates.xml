@@ -1,0 +1,51 @@
+<Alloy>
+		<Window id="dobWin" title="Dose Dates" class="container">
+			<RightNavButton>
+				<Button id="saveVaxButton" title="Results" onClick="saveVax"></Button>
+			</RightNavButton>
+			<TableView id="vaxView">
+            	<TableViewSection id="hepb" class="tvSection" headerTitle="HepB">
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="hepb1" hintText="Dose 1 Date"></TextField>
+					</TableViewRow>
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="hepb2" hintText="Dose 2 Date"></TextField>
+					</TableViewRow>
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="hepb3" hintText="Dose 3 Date"></TextField>
+					</TableViewRow>
+				</TableViewSection>
+
+            	<TableViewSection id="rv" class="tvSection" headerTitle="RV">
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="rv1" hintText="Dose 1 Date"></TextField>
+					</TableViewRow>
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="rv2" hintText="Dose 2 Date"></TextField>
+					</TableViewRow>
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="rv3" hintText="Dose 3 Date"></TextField>
+					</TableViewRow>
+				</TableViewSection>
+				
+				<TableViewSection id="rv" class="tvSection" headerTitle="DTaP">
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="dtap1" hintText="Dose 1 Date"></TextField>
+					</TableViewRow>
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="dtap2" hintText="Dose 2 Date"></TextField>
+					</TableViewRow>
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="dtap3" hintText="Dose 3 Date"></TextField>
+					</TableViewRow>
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="dtap4" hintText="Dose 4 Date"></TextField>
+					</TableViewRow>
+					<TableViewRow class="daterow">
+						<TextField class="doseField" id="dtap5" hintText="Dose 5 Date"></TextField>
+					</TableViewRow>
+				</TableViewSection>
+
+			</TableView>
+		</Window>
+</Alloy>
